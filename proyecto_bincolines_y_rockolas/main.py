@@ -23,6 +23,12 @@ def main():
                 f.mostrar_rockolas(datos_rockolas)
                 f.esperartecla()
             case "5":
+                f.eliminar_datos(datos_brincolines, datos_rockolas)
+                f.esperartecla()
+            case"6":
+                f.modificar_disponibilidad(datos_brincolines, datos_rockolas)
+                f.esperartecla()
+            case "7":
                 opcion = False
             case _:
                 f.borrarpantalla()
